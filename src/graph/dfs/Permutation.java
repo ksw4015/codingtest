@@ -3,6 +3,9 @@ package graph.dfs;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * LeetCode 46
+ */
 public class Permutation {
     public List<List<Integer>> permute(int[] nums) {
         List<Integer> lst = new ArrayList<>();
