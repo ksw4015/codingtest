@@ -1,5 +1,11 @@
 package graph.dfs;
 
+/**
+ * 프로그래머스 고득점 Kit
+ * DFS/BFS 타겟넘버
+ *
+ * 주어진 배열의 숫자를 모두 이용(덧셈,뺄셈)해 Target 숫자가 나오게하는 조합의 수
+ */
 public class TargetNumber {
     int ans = 0;
     public int solution(int[] numbers, int target) {
