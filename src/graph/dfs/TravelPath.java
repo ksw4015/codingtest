@@ -33,7 +33,6 @@ public class TravelPath {
                 // 도착지를 스택에 쌓고 다음 출발지로 사용함
                 stack.push(fromToMap.get(stack.peek()).poll());
             }
-            System.out.println("첫번째 while문: " + stack);
             results.add(0, stack.pop());
         }
         return results.toArray(new String[0]);
